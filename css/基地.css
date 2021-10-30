@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #5a4e49;
+    text-shadow: 0 0 1px #eee;
+    box-sizing: border-box;
+    outline: none;
+}
+body{
+    width: 100%;
+    background-color: #E5E4E4;
+    font-family: PingFang SC, Arial, Helvetica, sans-serif;
+}
+html{
+    font-size: 10px;
+}
+.news_detail{
+    padding: 1rem 2rem 8vw;
+    background-color: #fff;
+}
+.news_detail .back{
+    margin: 2rem 0;
+    letter-spacing: .2rem;
+    font-size: 1.6rem;
+}
+.back a{
+    color: #551a88;
+}
+.main h2{
+    font-size: 2.8rem;
+    color: #281f1c;
+    margin-bottom: 3rem;
+}
+.main .share{
+    border-bottom: 1px solid #cfcfcf;
+    padding-bottom: 2rem;
+}
+.for_wx{
+    position: relative;
+}
+.main .share img{
+    width: 3rem;
+    margin-right: 1.5rem;
+    transition: .2s;
+}
+#wx{
+    position: absolute;
+    top: 2rem;
+    z-index:998;
+    background-color: #fff;
+}
+#wx img{
+    width: 12.8rem;
+    height: 12.8rem;
+    border: 1px solid #eee;
+    padding: .5rem;
+    border-radius: .2rem;
+    display: none;
+    margin-right: 0;
+}
+.for_wx:hover #wx img{
+    display: block;
+}
+.content{
+    display: flex;
+    flex-direction: column-reverse;
+    position: relative;
+    min-height: 30rem;
+}
+.content .left{
+    position: static;
+    width: auto;
+    top: -5.4rem;
+    left: 0;
+}
+.content .left .tit{
+    font-size: 2.4rem;
+    border-bottom: 1px solid #cfcfcf;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+}
+.content .article{
+    margin-bottom: 3rem;
+}
+.content .left ul li .data{
+    color: #353636;
+    transition: .2s;
+}
+.content .left ul li h3{
+    color: #858585;
+    margin: 1rem 0 2rem;
+    font-weight: normal;
+    transition: .2s;
+}
+.article p{
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    margin-bottom: .6rem;
+}
+.article img{
+    margin: 1rem auto;
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.article .normal{
+    font-family: '宋体';
+    margin-top: 3rem;
+}
+.article .normal1{
+    text-align: justify;
+    font-family: '宋体';
+    font-size: 10.5pt;
+    word-spacing: normal;
+}
