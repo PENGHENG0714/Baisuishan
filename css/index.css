@@ -283,6 +283,28 @@ main .lunbo {
     color: #3b3b3b;
 }
 
+.marquee .scroll-x {
+    width: 100%;
+    height: 15rem;
+    overflow: hidden;
+    display: flex;
+}
+
+.scroll-x img {
+    height: 100%;
+    object-fit: cover;
+    animation: scro 10s linear infinite;
+}
+
+@keyframes scro {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-58.569rem);
+    }
+}
+
 .marquee a {
     margin: 6vw 0;
     padding: 2vw 4vw;

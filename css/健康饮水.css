@@ -1,0 +1,223 @@
+.side ul li:nth-of-type(4) a{
+    color: #360a5e;
+}
+*{
+    margin: 0;
+    padding: 0;
+    color: #5a4e49;
+    text-shadow: 0 0 1px #eee;
+    box-sizing: border-box;
+    outline: none;
+}
+body{
+    width: 100%;
+    /* background-color: #E5E4E4; */
+    font-family: PingFang SC, Arial, Helvetica, sans-serif;
+}
+html{
+    font-size: 10px;
+}
+.jk{
+    position: relative;
+}
+.jk_1 img{
+    object-fit: cover;
+    height: 20rem;
+    width: 100%;
+}
+.jk .text{
+    color: #fff;
+    position: absolute;
+    top:12vw;
+    right: 30vw;
+    font-size: 1.2rem;
+}
+.jk .text h2{
+    font-size: 2.4rem;
+    line-height: 4.6rem;
+    text-align: center;
+    color: #fff;
+}
+.jk_2 .tac{
+    text-align: center;
+    padding: 2.5vw 5.5vw;
+}
+.jk_2 .tac h2{
+    font-size: 1.8rem;
+}
+.jk dl{
+    font-size: 1.2rem;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.7vw 6.33vw 3.18vw;
+}
+.jk dl dd{
+    flex: 1;
+    padding: 1.4rem 2vw 2.2rem;
+}
+.jk img{
+    width: 100%;
+}
+.jk dl dd h2{
+    font-size: 1.6rem;
+    margin: .8rem 0;
+    color: #615f68;
+}
+.jk dl dd h2 b{
+    color: #873384;
+    font-weight: bold;
+}
+.jk_3{
+    background-color: #f6f6f6;
+    overflow: hidden;
+}
+.jk_3 .tac{
+    text-align: center;
+    padding: 4.95vw 5.5vw;
+}
+.jk_3 .tac h2{
+    text-align: center;
+    font-size: 2rem;
+    background-image: linear-gradient(90deg,#649cea,#c936a2);
+    -webkit-background-clip: text;
+    color: transparent;
+    display: inline-block;
+    text-shadow: none;
+}
+.jk_3 p{
+    padding: 0 8vw;
+    margin-bottom: 6vw;
+}
+.jk>p{
+    line-height: 2;
+}
+.jk_4>img{
+    margin-bottom: 3vw;
+}
+.jk_4 .text{
+    text-align: center;
+    top: 9.27vw;
+    font-size: 1.2rem;
+}
+.jk_4 .text h2{
+    line-height: 1.2;
+    margin-bottom: 2vw;
+}
+.jk_4 p{
+    padding: 0 8vw;
+    margin-bottom: 6vw;
+    /* color: #fff; */
+}
+.jk_4 p span{
+    color: #873384;
+    font-weight: bold;
+}
+.jk_5{
+    background: #e5e4e4;
+}
+.jk_5 .text{
+    left: 10vw;
+}
+.jk_5 dl{
+    margin-top: -8vw;
+    padding: 0 4vw;
+}
+.jk_5 dl dd{
+    box-shadow: none;
+    margin: 2vw 0;
+    border-radius: 1rem;
+    padding: 3.65vw 4.7vw;
+    background-color: #fff;
+    flex: 1;
+}
+.jk_5 dl dd h2{
+    font-size: 1.6rem;
+    color: #343434;
+}
+.jk_5 dl dd p{
+    line-height: 2.4rem;
+    font-weight: 300;
+    color: #464646;
+}
+.jk_5 .center{
+    padding: 2vw 9vw;
+    text-align: center;
+    overflow: hidden;
+}
+.jk_5 .center h3{
+    font-size: 1.6rem;
+    color: #0493c8;
+    margin: 4.3vw 0 0.6vw;
+}
+.jk_5 .center p{
+    margin: 5vw;
+    color: #464646;
+    font-weight: 100;
+    line-height: 2.4rem;
+}
+.se_wrap{
+    padding-bottom: 2vw;
+    background-color: #e5e4e4;
+}
+.se_wrap .se_box{
+    width: 94vw;
+    padding: 5vw 8vw;
+    margin: -6vw auto 3vw;
+    background: #fff;
+    border-radius: 1vw;
+    position: relative;
+    font-family: PingFang SC, Source Han Sans CN;
+}
+.se_wrap .se_box .quote{
+    padding: 4vw 4.5vw;
+    font-size: 5.21vw;
+    font-weight: 400;
+    color: #360a5e;
+    position: absolute;
+    top: 0;
+    left: -4vw;
+}
+.se_wrap .se_box h2{
+    color: #000;
+    font-size: 5vw;
+    margin-bottom: 1vw;
+}
+.se_wrap p{
+    line-height: 2;
+    font-size: 1.2rem;
+    color: #100605;
+}
+.se_wrap a{
+    margin: 4vw 0 0;
+    transition: .2s;
+    display: inline-block;
+
+}
+.se_wrap .btn_a{
+    padding: 0.75vw 1.22vw;
+    background: #fff;
+    border: 1px solid #000;
+    text-align: center;
+    font-family: PingFang SC, Source Han Sans CN;
+    font-weight: 200;
+    color: #000;
+}
+.jk_7{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5.26vw 0 6.35vw;
+}
+.jk_7 h2{
+    font-size: 1.6rem;
+    margin: 0 5vw;
+    text-align: center;
+    font-weight: normal;
+    background-image: linear-gradient(90deg, #649cea, #c936a2);
+    -webkit-background-clip: text;
+    color: transparent;
+    display: inline-block;
+    text-shadow: none;
+    line-height: 2;
+}

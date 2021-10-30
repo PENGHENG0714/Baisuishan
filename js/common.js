@@ -1,7 +1,7 @@
 function setRem() {
     // 设计稿宽度和设备宽度
     var uiW = 375;
-    var winW = document.documentElement.clientWidth;
+    var winW = document.documentElement.clientWidth || document.body.clientWidth;;
     // 定义比例
     var html_ = document.getElementsByTagName('html')[0];
 

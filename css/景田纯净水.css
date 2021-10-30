@@ -1,0 +1,321 @@
+/* 主体内容 */
+
+* {
+    box-sizing: border-box;
+    outline: none;
+}
+
+main .jt_1 {
+    margin-bottom: 8vw;
+    text-align: center;
+}
+
+main .jt_1 img:nth-of-type(1) {
+    width: 100%;
+    min-height: 200px;
+    object-fit: cover;
+}
+
+main .jt_1 h2 {
+    margin-top: -36vw;
+    font-size: 6vw;
+    margin-bottom: 4vw;
+    font-weight: bold;
+    color: #ffffff;
+    line-height: 3.91vw;
+}
+
+main .jt_1 p {
+    font-size: 1.3rem;
+    font-weight: 300;
+    color: #ffffff;
+    line-height: 1.5 !important;
+}
+
+main .jt_1 img:nth-of-type(2) {
+    width: 74vw;
+    margin-top: 8vw;
+}
+
+main .jt_1 .a_wrap a {
+    font-size: 1.2rem;
+    margin: 2vw 0 4.11vw;
+    display: inline-block;
+    padding: 0.75vw 1.72vw;
+    background: #fff;
+    border: 1px solid #000000;
+    text-align: center;
+    font-family: PingFang SC, Source Han Sans CN;
+    font-weight: 200;
+    color: #000;
+}
+
+main .jt_2 {
+    padding-bottom: 12vw;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.jt_2 img {
+    width: 100%;
+    min-height: 150px;
+    object-fit: cover;
+}
+
+.jt_2 h2 {
+    margin-top: -105px;
+    font-size: 18px;
+    margin-bottom: 5vw;
+    font-family: PingFang SC, Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    color: #fff;
+    line-height: 5.21vw;
+}
+
+.jt_2 .video_box {
+    margin-bottom: 3vw;
+}
+
+.jt_2 .video_wrap {
+    display: block;
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 2vw
+}
+
+.jt_2 .video_wrap video {
+    width: 90vw;
+    border-radius: .8rem;
+    object-fit: contain;
+}
+
+.jt_2 ul {
+    display: flex;
+    justify-content: center;
+}
+
+.jt_2 ul li {
+    background: #5a7fce;
+    color: #fff;
+    border: 1px solid #5a7fce;
+    padding: 1.46vw 3.25vw;
+    margin: 0 5.8vw;
+    min-width: 21.88vw;
+    cursor: pointer;
+}
+
+main .jt_3 {
+    padding-top: 7vw;
+    text-align: center;
+}
+
+.jt_3 h2 {
+    font-size: 18px;
+    line-height: 26px;
+    font-family: PingFang SC, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #313131;
+}
+
+.jt_3 p {
+    margin: 10px 0 16px;
+    font-size: 12px;
+    width: 80vw;
+    font-family: PingFang SC, Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    color: #313131;
+    display: inline-block;
+    line-height: 1.5 !important;
+}
+
+.jt_3 .b-box {
+    padding: 0 4vw 12vw;
+    display: flex;
+    align-items: baseline;
+    color: white;
+    font-size: 0.83vw;
+}
+
+.jt_3 .b-box>div {
+    font-size: 12px;
+    font-weight: 200;
+    padding: 2vw;
+    line-height: 2;
+}
+
+.b-box img {
+    margin-bottom: 2.5vw;
+    width: 100%;
+}
+
+.jt_3 h4 {
+    background-image: -webkit-linear-gradient(90deg, #ce89c8, #3ab2e2);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+main .jt_4 {
+    padding-bottom: 12vw;
+    text-align: center;
+    position: relative;
+}
+
+.jt_4 img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.jt_4 .p1 {
+    position: absolute;
+    top: 1.77vw;
+    right: 2vw;
+    width: 60vw;
+    font-size: 1.2rem;
+    font-family: PingFang SC, Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    color: #ffffff;
+    line-height: 1.5 !important;
+}
+
+.jt_4 .h21 {
+    font-size: 15px;
+    line-height: 6vw;
+    right: 16vw;
+    top: 12vw;
+    position: absolute;
+    width: 6.98vw;
+    font-family: PingFang SC, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #000000;
+    writing-mode: vertical-lr;
+    text-indent: 2em;
+}
+
+.jt_4 .h22 {
+    font-size: 18px;
+    margin: 12vw 0 2vw;
+    font-family: PingFang SC, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #000000;
+    line-height: 5.21vw;
+}
+
+.jt_4 .p2 {
+    font-size: 13px;
+    margin-bottom: 6vw;
+    font-family: PingFang SC, Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    color: #000000;
+    display: block;
+    text-align: center;
+}
+
+.jt_4 video {
+    width: 90vw;
+    object-fit: contain;
+}
+
+main .jt_5 {
+    padding-bottom: 32vw;
+    text-align: center;
+}
+
+.jt_5 img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.jt_5 h2 {
+    margin: -43vw 0 3vw;
+    font-size: 18px;
+    font-family: PingFang SC, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+    line-height: 0.81vw;
+}
+
+.jt_5 p {
+    font-size: 13px;
+    font-family: PingFang SC, Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+main .ji_6 {
+    padding-bottom: 6vw;
+    margin: 0 4vw;
+}
+
+.jt_6 h2 {
+    font-size: 18px;
+    margin-top: 14vw;
+    font-family: PingFang SC, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #0a0a0a;
+    line-height: 7.81vw;
+    text-align: center;
+}
+
+.jt_6 p {
+    font-size: 13px;
+    font-family: PingFang SC, Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    color: #0a0a0a;
+    line-height: 1.5 !important;
+    text-align: center;
+}
+
+.jt_6 dl {
+    margin-top: 5vw;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.jt_6 dd {
+    margin: 0 1vw;
+    position: relative;
+    border-radius: 10px;
+}
+
+.jt_6 img {
+    width: 100%;
+    z-index: 1;
+}
+
+.jt_6 h3 {
+    text-align: left;
+    font-size: 1.6rem;
+    font-family: PingFang SC, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+    position: absolute;
+    top: 3.5vw;
+    left: 3.5vw;
+    display: block;
+}
+
+.jt_6 small {
+    font-size: 12px;
+    font-family: PingFang SC, Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    display: block;
+}
+
+.jt_6 .img-wrap {
+    margin: 1vw;
+    display: block;
+    position: relative;
+}
+
+.jt_6 .h34 {
+    color: #5a7fce;
+}
+
+.jt_6 .h35 {
+    color: #5a7fce;
+    position: absolute;
+    left: 75vw;
+}

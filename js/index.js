@@ -26,6 +26,7 @@ var num2 = 20;
 var timer1;
 var timer2;
 time1.addEventListener('webkitAnimationEnd', function() {
+    clearInterval(timer1)
     timer1 = setInterval(function() {
         num1++;
         span.innerHTML = num1;
