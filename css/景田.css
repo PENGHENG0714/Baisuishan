@@ -1,0 +1,105 @@
+/* 主体内容 */
+
+* {
+    box-sizing: border-box;
+    outline: none;
+}
+
+main .jt_1 {
+    margin-bottom: 8vw;
+    text-align: center;
+}
+
+main .jt_1 img:nth-of-type(1) {
+    width: 100%;
+    min-height: 200px;
+    object-fit: cover;
+}
+
+main .jt_1 h2 {
+    margin-top: -36vw;
+    font-size: 6vw;
+    margin-bottom: 4vw;
+    font-weight: bold;
+    color: #ffffff;
+    line-height: 3.91vw;
+}
+
+main .jt_1 p {
+    font-size: 1.3rem;
+    font-weight: 300;
+    color: #ffffff;
+    line-height: 1.5 !important;
+}
+
+main .jt_1 img:nth-of-type(2) {
+    width: 74vw;
+    margin-top: 8vw;
+}
+
+main .jt_1 .a_wrap a {
+    font-size: 1.2rem;
+    margin: 2vw 0 4.11vw;
+    display: inline-block;
+    padding: 0.75vw 1.72vw;
+    background: #fff;
+    border: 1px solid #000000;
+    text-align: center;
+    font-family: PingFang SC, Source Han Sans CN;
+    font-weight: 200;
+    color: #000;
+}
+
+main .jt_2 {
+    padding-bottom: 12vw;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.jt_2 img {
+    width: 100%;
+    min-height: 150px;
+    object-fit: cover;
+}
+
+.jt_2 h2 {
+    margin-top: -105px;
+    font-size: 18px;
+    margin-bottom: 5vw;
+    font-family: PingFang SC, Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    color: #fff;
+    line-height: 5.21vw;
+}
+
+.jt_2 .video_box {
+    margin-bottom: 3vw;
+}
+
+.jt_2 .video_wrap {
+    display: block;
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 2vw
+}
+
+.jt_2 .video_wrap video {
+    width: 90vw;
+    border-radius: .8rem;
+    object-fit: contain;
+}
+
+.jt_2 ul {
+    display: flex;
+    justify-content: center;
+}
+
+.jt_2 ul li {
+    background: #5a7fce;
+    color: #fff;
+    border: 1px solid #5a7fce;
+    padding: 1.46vw 3.25vw;
+    margin: 0 5.8vw;
+    min-width: 21.88vw;
+    cursor: pointer;
+}

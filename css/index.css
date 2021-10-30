@@ -1,0 +1,342 @@
+/* 主体内容 */
+
+main {
+    background-color: #e5e4e4;
+}
+
+main .wrap {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    background-color: white;
+}
+
+main .wrap .bg {
+    width: 100%;
+    position: absolute;
+    top: -19rem;
+}
+
+main .wrap .main_2 {
+    width: 48%;
+    margin: 12.5rem;
+    z-index: 1;
+}
+
+main .wrap .title {
+    width: 76vw;
+    position: relative;
+    top: -12rem;
+}
+
+main .btns {
+    position: relative;
+    top: -10rem;
+}
+
+main .btns a {
+    border: 1px solid #ccc;
+    color: #5a4e49;
+    padding: .5rem 1.5rem;
+    font-size: 1.2rem;
+}
+
+.btns a:nth-of-type(1) {
+    margin-right: 2.8rem;
+}
+
+.btns a:nth-of-type(2) {
+    margin-left: 2.8rem;
+}
+
+.down {
+    position: relative;
+    top: -7rem;
+    color: #999999;
+    font-size: 1.2rem;
+    display: flex;
+}
+
+.down span {
+    margin-left: .5rem;
+    transform: rotate(90deg);
+}
+
+
+/* 发现更多*/
+
+.find h2 {
+    font-size: 3rem;
+    font-weight: 500;
+    padding: 1.6rem;
+    background-color: white;
+}
+
+
+/* 轮播图 */
+
+main .lunbo {
+    width: 100%;
+    background-color: white !important;
+}
+
+.swiper-container {
+    width: 90%;
+    height: 41rem;
+    border-radius: 2rem;
+    background-color: black;
+}
+
+.swiper-container img {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-container video {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-container .swiper_text {
+    position: absolute;
+    padding-top: 56vw;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    font-size: 4.27vw;
+    text-align: center;
+    line-height: 2;
+}
+
+.swiper_text h3 {
+    font-size: 7.82vw;
+    font-weight: bold;
+    line-height: 5.33vw;
+    margin-bottom: 4.4vw;
+}
+
+.swiper_text img {
+    width: 3.82vw;
+    height: 3.82vw;
+    vertical-align: -1vw;
+}
+
+
+/* 左右划看查看更多*/
+
+.left {
+    color: #999999;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    background-color: white;
+}
+
+
+/* 近30年成就一瓶好水 */
+
+.info {
+    width: 83.33vw;
+    background: #fff;
+    border-radius: 1vw;
+    padding: 2.97vw 8vw;
+    position: relative;
+    margin: 4vw auto;
+    font-family: PingFang SC, Source Han Sans CN;
+}
+
+.info h2 {
+    text-align: center;
+    font-size: 5.5vw;
+    display: block;
+    color: #000;
+    margin-top: 6vw;
+    margin-bottom: 0.5vw;
+}
+
+.info span {
+    color: #7b7b7b;
+    font-size: 5vw;
+    font-weight: 200;
+    margin-bottom: 0.5vw;
+    text-align: center;
+    display: block;
+}
+
+.no1 {
+    display: flex;
+    justify-content: space-between;
+    font-size: 5vw;
+    color: #100605;
+    margin-top: 8vw;
+}
+
+.no1 dd {
+    display: flex;
+    flex-direction: column;
+    font-weight: normal;
+    font-size: 1.4rem;
+    color: #777777;
+}
+
+.no1 span {
+    color: #3c0263;
+    font-size: 8vw;
+    text-align: center;
+    display: block;
+}
+
+.no1 span #rank {
+    display: inline;
+    font-size: 8vw;
+}
+
+
+/* 探索水中贵族 */
+
+.vip h2 {
+    display: block;
+    font-size: 8vw;
+    font-weight: 500;
+    color: #000000;
+    margin: 0 4vw 5vw;
+}
+
+.vip .bg {
+    background-color: #ffffff;
+    width: 100vw;
+    height: 13rem;
+    padding: 6vw 0;
+}
+
+.vip_text {
+    margin: -.4rem auto;
+    padding: 2rem 0;
+    width: 100%;
+    background: #fff;
+    border-radius: 1vw;
+    font-family: PingFang SC, Source Han Sans CN;
+}
+
+.vip_text h2 {
+    font-size: 5.5vw;
+    display: block;
+    color: #000;
+    margin-bottom: 0.5vw;
+    margin-left: 1.6rem;
+    font-weight: 600;
+}
+
+.vip_text span {
+    font-size: 5.5vw;
+    display: block;
+    color: #7b7b7b;
+    font-weight: 200;
+    margin-bottom: 0.5vw;
+    margin-left: 1.6rem;
+}
+
+.vip_text p {
+    width: 90%;
+    margin: 1.2rem auto;
+    line-height: 2rem;
+    font-size: 1.2rem;
+    color: #100605;
+}
+
+.vip_text a {
+    padding: 1vw 1.8vw;
+    background: #360a5e;
+    color: #fff;
+    display: inline-block;
+    margin: 2.7vw 0 6vw 5vw;
+}
+
+
+/* 水中贵族遍布世界 */
+
+.marquee {
+    font-family: PingFang SC, Source Han Sans CN;
+    text-align: center;
+    overflow: hidden;
+    background-color: white;
+    margin-top: 5vw;
+}
+
+.marquee .world {
+    font-size: 5.5vw;
+    font-weight: 600;
+    margin-top: 8vw;
+    color: #3b3b3b;
+}
+
+.marquee .sport {
+    font-weight: 300;
+    font-size: 4vw;
+    margin: 2vw 0 6vw;
+    color: #3b3b3b;
+}
+
+.marquee a {
+    margin: 6vw 0;
+    padding: 2vw 4vw;
+    font-size: 3vw;
+    display: inline-block;
+    font-weight: 400;
+    color: #797979;
+    border: 1px solid #808080;
+}
+
+.marquee .vip_text {
+    text-align: left;
+}
+
+.bottle {
+    padding: 4vw 1.3vw 14vw;
+    width: 100vw;
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    background-color: white;
+    font-size: 1.2rem;
+    left: -1rem;
+}
+
+.bottle .bot_img {
+    flex: auto;
+    padding: 1vw 4vw;
+    text-align: center;
+}
+
+.bot_img img {
+    height: auto;
+    width: 100%;
+}
+
+.bot_img #bot2 {
+    transform: scale(.9) translateY(1rem);
+}
+
+.pro .dob {
+    width: 10rem;
+    height: 9.25rem;
+    display: flex;
+    display: none;
+}
+
+.dob img:nth-of-type(1) {
+    position: relative;
+    left: -2rem;
+}
+
+.dob img:nth-of-type(2) {
+    position: relative;
+    left: 1.8rem;
+    top: -9.6rem;
+}
