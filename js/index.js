@@ -45,3 +45,12 @@ time2.addEventListener('webkitAnimationEnd', function() {
         }
     }, 50)
 }, false)
+var img = document.getElementById('m');
+var music = document.getElementsByTagName('audio')[0];
+touch.on(img, 'tap', function() {
+    if (music.paused) {
+        music.play();
+    } else {
+        music.pause();
+    }
+})
